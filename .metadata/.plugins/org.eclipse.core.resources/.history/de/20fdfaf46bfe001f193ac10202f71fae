@@ -1,0 +1,45 @@
+<html>
+	<head>
+	 
+		<title>나의 첫 번째 페이지</title>
+		
+		<!-- 문자의 글자형식: utf-8 ecu-kr -->
+		<!-- chartset: 속성 -->
+		<!-- UTF-8: 속성 값 -->
+		<meta charset="UTF-8">
+		<meta name="mypage" content="the my first page" keywords="hanyang">
+		<!-- <meta http-equiv="refresh" content="3;http://www.google.com"> -->
+		
+	</head>
+	<body
+		bgcolor=#3098D1
+		leftmargin=30
+		topmargin=100
+		marginwidth=100
+		marginheight=100>
+		<!-- background="./pic/bara.png" -->
+		<!-- 상대경로, 절대경로 -->
+		<!-- ./: 현재 디렉토리, ../: 상위 디렉토리 -->
+		
+		<font color=yellow size=100>
+		<hr width=100 size=20 noshade>
+		문서1<br>
+		<img src="./pic/bara.png" width=200 height=200 border=2><br>
+		<small>
+			문서2<br>
+		</small>
+		<em>이탤릭체<br></em>
+		<strong>굵게<br></strong>
+		<u>밑줄<br></u>
+		
+		
+		<p align=center>
+		문서3<br>
+			<h1>문서4</h1><br>
+			문서5
+		</p>
+		
+	</body>
+</html>
+
+<!-- 시진핑 주석 -->

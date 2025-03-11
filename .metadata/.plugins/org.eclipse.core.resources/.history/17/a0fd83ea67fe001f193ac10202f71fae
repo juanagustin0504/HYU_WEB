@@ -1,0 +1,31 @@
+<html>
+	<head>
+	 
+		<title>나의 첫 번째 페이지</title>
+		
+		<!-- 문자의 글자형식: utf-8 ecu-kr -->
+		<!-- chartset: 속성 -->
+		<!-- UTF-8: 속성 값 -->
+		<meta charset="UTF-8">
+		<meta name="mypage" content="the my first page" keywords="hanyang">
+		<!-- <meta http-equiv="refresh" content="3;http://www.google.com"> -->
+		
+	</head>
+	<body
+		bgcolor=#3098D1
+		leftmargin=30
+		topmargin=100
+		marginwidth=100
+		marginheight=100
+		background="./pic/bara.png">
+		<!-- 상대경로, 절대경로 -->
+		<!-- ./: 현재 디렉토리, ../: 상위 디렉토리 -->
+		문서1<br>
+		문서2
+		<p align=center>
+		문서3<br>문서4<br>문서5
+		</p>
+	</body>
+</html>
+
+<!-- 시진핑 주석 -->
