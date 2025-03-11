@@ -28,8 +28,9 @@
 			<tr height=100 bgcolor=yellow> <td width=100>이름</td> <td>나이</td> <td>성별</td> </tr>
 			<tr> <td>A</td> <td bgcolor=red>20</td> <td>남</td> </tr>
 			<tr> <td>B</td> <td>25</td> <td>여</td> </tr>
-		</table>
+			
 		
+		</table>
 		
 		<table border="1" width=200>
 			<tr><td>1</td></tr>

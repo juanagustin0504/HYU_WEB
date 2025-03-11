@@ -1,0 +1,367 @@
+<table id="gdMain" class="dataGridContainer grid">
+		<thead>
+			<tr>
+				<th>시간</th>
+				<th>월</th>
+				<th>화</th>
+                <th>수</th>
+				<th>목</th>
+				<th>금</th>
+				<th>토</th>
+				<th>비지정</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="even" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">1교시<br>(08:00~08:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%">12006<br>인공지능과기계학습<br>이론<br>H<br>성기혁</td>
+			</tr>
+		
+			<tr class="odd" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">2교시<br>(08:30~09:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%">12006<br>인공지능과기계학습<br>이론<br>H<br>성기혁</td>
+			</tr>
+		
+			<tr class="even" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">3교시<br>(09:00~09:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%">12006<br>인공지능과기계학습<br>이론<br>H<br>성기혁</td>
+			</tr>
+		
+			<tr class="odd">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">4교시<br>(09:30~10:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%">12006<br>인공지능과기계학습<br>이론<br>H<br>성기혁</td>
+			</tr>
+		
+			<tr class="even">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">5교시<br>(10:00~10:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">6교시<br>(10:30~11:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">7교시<br>(11:00~11:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">8교시<br>(11:30~12:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">9교시<br>(12:00~12:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">10교시<br>(12:30~13:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">11교시<br>(13:00~13:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">12교시<br>(13:30~14:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">13교시<br>(14:00~14:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">14교시<br>(14:30~15:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">15교시<br>(15:00~15:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">16교시<br>(15:30~16:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">17교시<br>(16:00~16:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">18교시<br>(16:30~17:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">19교시<br>(17:00~17:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">20교시<br>(17:30~18:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">21교시<br>(18:00~18:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">22교시<br>(18:30~19:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even selected" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">23교시<br>(19:00~19:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%">12340<br>확률및통계1<br>이론<br>H211-0209<br>양재용</td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%">12345<br>웹프로그래밍<br>이론<br>H211-PC3<br>탁문호</td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%">12344<br>데이터구조입문<br>이론<br>H211-0401<br>김종현</td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">24교시<br>(19:30~20:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%">12340<br>확률및통계1<br>이론<br>H211-0209<br>양재용</td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%">12345<br>웹프로그래밍<br>이론<br>H211-PC3<br>탁문호</td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%">12344<br>데이터구조입문<br>이론<br>H211-0401<br>김종현</td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">25교시<br>(20:00~20:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%">12340<br>확률및통계1<br>이론<br>H211-0209<br>양재용</td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%">12345<br>웹프로그래밍<br>이론<br>H211-PC3<br>탁문호</td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%">12344<br>데이터구조입문<br>이론<br>H211-0401<br>김종현</td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd" style="cursor: default;">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">26교시<br>(20:30~21:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%">12340<br>확률및통계1<br>이론<br>H211-0209<br>양재용</td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%">12345<br>웹프로그래밍<br>이론<br>H211-PC3<br>탁문호</td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%">12344<br>데이터구조입문<br>이론<br>H211-0401<br>김종현</td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">27교시<br>(21:00~21:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%">12340<br>확률및통계1<br>이론<br>H211-0209<br>양재용</td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%">12345<br>웹프로그래밍<br>이론<br>H211-PC3<br>탁문호</td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%">12344<br>데이터구조입문<br>이론<br>H211-0401<br>김종현</td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">28교시<br>(21:30~22:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%">12340<br>확률및통계1<br>이론<br>H211-0209<br>양재용</td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%">12345<br>웹프로그래밍<br>이론<br>H211-PC3<br>탁문호</td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%">12344<br>데이터구조입문<br>이론<br>H211-0401<br>김종현</td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">29교시<br>(22:00~22:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">30교시<br>(22:30~23:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="even">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">31교시<br>(23:00~23:30)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		
+			<tr class="odd">
+				<td id="gyosi" class="{ &quot;cellHandler&quot; : &quot;ServiceController.gyosiCellHandler&quot; }" width="">32교시<br>(23:30~24:00)</td>
+                <td id="yoil2" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil2CellHandler&quot; }" width="15%"></td>
+                <td id="yoil3" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil3CellHandler&quot; }" width="15%"></td>
+                <td id="yoil4" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil4CellHandler&quot; }" width="15%"></td>
+                <td id="yoil5" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil5CellHandler&quot; }" width="15%"></td>
+                <td id="yoil6" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil6CellHandler&quot; }" width="15%"></td>
+                <td id="yoil7" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil7CellHandler&quot; }" width="15%"></td>
+                <td id="yoil0" class="{ &quot;cellHandler&quot; : &quot;ServiceController.yoil0CellHandler&quot; }" width="15%"></td>
+			</tr>
+		</tbody>
+	</table>
