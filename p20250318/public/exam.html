@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Week 3</title>
+	
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+		
+		/* 전체선택자 */
+		* { background: red; }
+		/* 태그선택자 */
+		p { background: yellow; }
+		/* id선택자 */
+		#hanyang1 {background: white; }
+		/* class선택자 */
+		.ind { background: blue; }
+		/* 그룹선택자(복수선택) */
+		h3, h5 { font-size: 40px }
+		/* 자식선택자 */
+		p > b { background: rgb(100,100,100); }
+		/* 후손선택자 */
+		p b { background: rgb(200,100,50); }
+		/* 형제선택자 */
+		/* h3 ~ p: h3 아래쪽에 있는 태그들 */
+		/* h3 + p: h3 바로 아래에 있는 태그 */
+	</style>
+</head>
+	<body>
+		<p id="hanyang1">한양대학교</p>
+		<p>산업융합학부</p>
+		<p class="ind"><h1><b>정보</b></h1>공학</p>
+		<p class="ind">경영<b>공학</b></p>
+		<h3>대학원</h3>
+		<h5 style="font-family: 'Moirai One';">졸업</h5>
+		
+	</body>
+</html>

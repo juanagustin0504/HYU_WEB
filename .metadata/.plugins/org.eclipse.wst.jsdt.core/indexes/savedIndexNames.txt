@@ -1,9 +1,3 @@
-INDEX VERSION 1.4+C:\Users\Moon\Desktop\대학과제\Web\HYU_WEB\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1287379432.index
-3736314675.index
-998554725.index
-2178122835.index
-3195799943.index
-619757899.index
-1686156258.index
-3369678292.index
+INDEX VERSION 1.4+C:\Users\HYU\Desktop\Moon\HYU_WEB\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1192327675.index
+3349197091.index
