@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+<body>
+
+	<script>
+		/* // 주석
+		// 변수
+		var a = 3;
+		
+		// 상수
+		const c = 3.14;
+		// c = 4; // 값을 못 바꿈
+		
+		// 출력
+		document.write("<h3>" + a + c + "</h3>");
+		
+		// /: 나누기, %: 나머지
+		document.write(4/3 + " " + 4%3 + "<br>");
+		
+		// 증감연산자
+		document.write("증감연산자<br>");
+		a+=3; // a = a + 3
+		b = a++; // b 에는 6 넣고 다음 줄로 넘어갈 때 a 1증가
+		b = ++a; // a에 1증가 후 b에 8 넣음
+		document.write(a + " " + b);
+		document.write("<p>"); */
+		
+		
+		/* 
+		// while문
+		var i = 0;
+		while(i<5) {
+			document.write(i);
+			i++;
+		}
+		
+		
+		// while 문으로 table 만들기
+		document.write("<table border=1>");
+		
+		i = 0;
+		while(i<10) {
+			
+			document.write("<tr>");
+			var j = 0;
+			while(j<10) {
+				document.write("<td></td>");
+				j++;
+			}
+			document.write("</tr>");
+			i++;
+		}
+		
+		
+		document.write("</table>");
+		
+		// for문
+		document.write("<table border=1>");
+		for(i=0;i<4;i++) {
+			document.write("<tr>");
+			for(j=0;j<5;j++) {
+				document.write("<td></td>");
+			}
+			document.write("</tr>");
+			
+		}
+		
+		
+		document.write("</table>"); */
+		
+		//조건문
+		/* var bb = true;
+		
+		for(var i=0; i<10; i++) {
+			if(bb) {
+				document.write("true<br>");
+				bb = false;
+			}
+			if(!bb) {
+				bb = true;
+			}
+		} */
+		
+		
+		// 함수
+		/* function sum(a,b) {
+			 d = a+b;
+			 return d;
+		}
+		
+		document.write(sum(10,20) + d + "<br>"); */
+		
+		// return이 있으면 return type이 있음. 없으면 void
+		/* function print() {
+			a[2] = 13;
+		}
+		
+		var a = [1,2,3];
+		print();
+		document.write(a); */
+		
+		/* var test = function(a,b) {
+			return a + b;
+		}
+		
+		
+		
+		document.write(test(1,1)); */
+		
+		//배열
+		/* var a1 = [1, 2, 3, 3.5, "abc"];
+		document.write(a1[0]+"<br>");
+		document.write(a1[4]+"<br>");
+		a1[10] = 10;
+		document.write(a1+"<br>");
+		document.write(a1[7]+"<br>"); // undefined
+		delete(a1[3]); // undefined로 만들기
+		//a1[3] = undefined;
+		document.write(a1+"<br>"); */
+		
+		// document.window.write(); window가 생략 됨
+		//document.write(innerWidth + " " + innerHeight + "<br>");
+		//document.write(screenX + " " + screenY+ "<br>");
+		
+		/* var globalvar;
+		
+		function openwindow() {
+			globalvar = window.open("https://www.naver.com/", "", "width=400, height=300");
+		}
+		
+		function closewindow() {
+			globalvar.close();
+		} */
+		
+		
+	
+	</script>
+	
+	<!--  <input type="button" value="open" onclick="openwindow()"> -->
+	<!--  <input type="button" value="close" onclick="closewindow()"> -->
+	
+	
+	<h1 name='abc'>test</h1>
+	<p id="abc3" class="uu1">def<br>abcde<i>mmi</i></p>
+	
+	<script>
+		var find = document.getElementById("abc3");
+		document.write(find.nodeType + "<br>"); // nodeType 1: tag
+		document.write(find.id + "<br>"); // id
+		document.write(find.tagName + "<br>"); // tag 이름
+		document.write(find.getAttribute("id") + "<br>"); // 속성 값
+		document.write(find.getAttribute("class") + "<br>"); //
+		document.write(find.innerHTML + "<br>"); // tag 안에 있는 html 문 출력
+		document.write(find.textContent + "<br>"); // p가 감싸고 있는 text=id
+		document.write(find.firstChild + "<br>"); // 첫째
+	
+	</script>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
