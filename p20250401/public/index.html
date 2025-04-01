@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>한양영화</title>
+
+
+	<style>
+		.poster {
+			width: 170px;
+			height: 250px;
+			border-radius: 20px;
+		}
+		
+		.poster:hover {
+			box-shadow: 5px 5px 10px 2px gray;
+		}
+		
+		.tableClass {
+			visibility: collapse;
+		}
+	
+	</style>
+</head>
+<body align="center">
+
+
+	<!-- <p onmouseover="mouse1(0)" onmouseout="mouse2(0)" id="p1" name="pp" class="c1">첫번째 p</p> -->
+	<!-- <p onmouseover="mouse1(1)" onmouseout="mouse2(1)" id="p2" name="pp" class="c1">두번째 p</p> -->
+	<!-- <p onmouseover="mouse1(2)" onmouseout="mouse2(2)" id="p3" name="pp">세번째 p</p> -->
+	
+	<script>
+	
+		/*
+		// 문서에서 id를 찾아서 가져온다.
+		var d1 = document.getElementById("p1");
+		// noeType은 node의 형태
+		document.write(d1.nodeType + "<br>");
+		
+		// 문서에서 태그<> p를 찾는다. d2는 배열을 갖는다.
+		var d2 = document.getElementsByTagName("p");
+		// textContent는 tag가 감싸고 있는 text
+		document.write(d2[0].textContent + "<br>");
+		
+		var d3 = document.getElementsByClassName("c1");
+		d3[1].textContent = "ABC";
+		document.write(d3[1].textContent + "<br>");
+		
+		// css에서 선택자 p를 선택하여 d4에 연결
+		var d4 = document.querySelector("p");
+		d4.style.background = "yellow";
+		
+		// css에서 선택자 p를 선택하여 d5에 연결(배열)
+		var d5 = document.querySelectorAll("p");
+		d5[2].style.color = "white";
+		
+		// 숨기기
+		d5[1].style.visibility = "collapse";
+		// 보이기
+		d5[1].style.visibility = "visible";
+		
+		//어드밴스한? 
+		//이건 무슨 한씨인겨
+		
+		*/		
+		
+		function mouse1(k) {
+			d1 = document.querySelectorAll("p");
+			d1[k].style.color = "blue"
+		}
+		
+		function mouse2(k) {
+			d1 = document.querySelectorAll("p");
+			d1[k].style.color = "white"
+		}
+		
+		function mouseIn(i) {
+			var c1 = document.querySelectorAll(".tableClass");
+			c1[i].style.visibility = "visible";
+			
+		}
+		
+		function mouseOut(i) {
+			var c1 = document.querySelectorAll(".tableClass");
+			c1[i].style.visibility = "collapse";
+		}
+		
+	
+	
+	</script>
+	
+	<p style="font-size:30px; font-weight:bold;">무비차트</p>
+	
+	
+	<table border="1" align="center">
+		<!-- 포스터 -->
+		<tr>
+			<td onmouseover="mouseIn(0)" onmouseout="mouseOut(0)" style="position:relative;" id="t1">
+				<img class="poster" src="./pic/no1.png" >
+				<table class="tableClass" style="position:absolute; z-index:2; left:35px; top:95px" border="1" align="center">
+					<tr>
+						<td style="height:30px; width:100px; background:white; color:black;">
+							<p style="font-size:17px; font-weight:bold; color:gray">상세보기</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="height:30px; width:100px; background:red; color:white;">
+							<p style="font-size:17px; font-weight:bold; color:white;">예약하기</p>
+						</td>
+					</tr>
+				
+				</table>
+			</td>
+			<td></td>
+			<td onmouseover="mouseIn(1)" onmouseout="mouseOut(1)" style="position:relative;">
+				<img class="poster" src="./pic/no2.png">
+				<table class="tableClass" style="position:absolute; z-index:2; left:35px; top:95px" border="1" align="center">
+					<tr>
+						<td style="height:30px; width:100px; color:black;" bgcolor="white">
+							상세보기
+						</td>
+					</tr>
+					<tr>
+						<td style="height:30px; width:100px; color:white;" bgcolor="red">
+							예약하기
+						</td>
+					</tr>
+				
+				</table>
+			</td>
+			<td></td>
+			<td onmouseover="mouseIn(2)" onmouseout="mouseOut(2)" style="position:relative;">
+				<img class="poster" src="./pic/no3.png">
+				<table class="tableClass" style="position:absolute; z-index:2; left:35px; top:95px" border="1" align="center">
+					<tr>
+						<td style="height:30px; width:100px; color:black;" bgcolor="white">
+							상세보기
+						</td>
+					</tr>
+					<tr>
+						<td style="height:30px; width:100px; color:white;" bgcolor="red">
+							예약하기
+						</td>
+					</tr>
+				
+				</table>
+			</td>
+			<td></td>
+			<td onmouseover="mouseIn(3)" onmouseout="mouseOut(3)" style="position:relative;">
+				<img class="poster" src="./pic/no4.png">
+				<table class="tableClass" style="position:absolute; z-index:2; left:35px; top:95px" border="1" align="center">
+					<tr>
+						<td style="height:30px; width:100px; color:black;" bgcolor="white">
+							상세보기
+						</td>
+					</tr>
+					<tr>
+						<td style="height:30px; width:100px; color:white;" bgcolor="red">
+							예약하기
+						</td>
+					</tr>
+				
+				</table>
+			</td>
+			<td></td>
+			<td onmouseover="mouseIn(4)" onmouseout="mouseOut(4)" style="position:relative;">
+				<img class="poster" src="./pic/no5.png">
+				<table style="position:absolute; z-index:2; left:35px; top:95px" border="1" align="center">
+					<tr>
+						<td style="height:30px; width:100px; color:black;" bgcolor="white">
+							상세보기
+						</td>
+					</tr>
+					<tr>
+						<td style="height:30px; width:100px; color:white;" bgcolor="red">
+							예약하기
+						</td>
+					</tr>
+				
+				</table>
+			</td>
+		
+		
+		</tr>
+		
+		<!-- 영화 제목 -->
+		<tr>
+			<td align="center">승부</td>
+			<td></td>
+			<td align="center">미키17</td>
+			<td></td>
+			<td align="center">플로우</td>
+			<td></td>
+			<td align="center">콘클라베</td>
+			<td></td>
+			<td align="center">고독한 미식가</td>
+		</tr>
+	</table>
+
+</body>
+</html>
