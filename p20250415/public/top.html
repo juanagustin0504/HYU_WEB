@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Jua&family=Lugrasimo&display=swap');
+	
+		.nav {
+			align:center;
+			color:white;
+			font-size:12px;
+		}
+		
+		.topTable {
+			height:70px;
+			width:100%; 
+			font-size:14px; 
+			font-weight: bold;
+			border-width:0 0 1px;
+			border-color:gray;
+		}
+		
+		.title {
+			font-size:30px;
+			align:center;
+			font-weight:bold;
+			font-family:"Lugrasimo";
+		}
+		
+	</style>
+	
+	
+</head>
+
+<body align="center">
+	<div style="width:100%; background:black;" align="right">
+	
+		<table style="height:35px;">
+			<tr align=right>
+				<td class="nav">LOGIN</td>
+				<td class="nav">JOIN</td>
+			</tr>
+		</table>
+	</div>
+	<div style="border-width:1px; border-color:gray; border-bottom-style: solid">
+	
+		<table class="topTable">
+			<tr align="center">
+				<td>new</td>
+				<td>24SS</td>
+				<td>WOMEN</td>
+				<td>MEN</td>
+				<td>LUXURY</td>
+				<td>BEST ITEM</td>
+				<td>BRAND</td>
+			</tr>
+			
+		</table>
+	</div>
+	
+	<p class="title">
+		BEST SELLER
+	</p>
+	
+	<table align=center>
+		<tr>
+			<td class="gender" onmouseover="mouseInside(0)" onmouseout="mouseOutside(0)">Women</td>
+			<td id="uud" onmouseover="mover()" onmouseout="mout()"><span>Men</span></td>
+		</tr>
+	</table>
+	
+	<script>
+	
+	
+
+	/* top.html
+	2.
+	- 높이 35px, 폭 100%, 배경 검정색
+	- 내부에는 table이 있으며 LOGIN JOIN은 우측정렬, 가운데, 흰색, 글자크기 12px 임
+	3.
+	- 높이 70px, 폭 100%, 배경 없음, 하단에 선이 있음 (실선의 두께는 1px, 색상은 gray임).
+	- 내부에는 table이 있으며 table의 폭은 1000px, 가운데 정렬, 글자크기 14px, 굵게.
+	4.
+	- google fonts 사이트에서 Lugrasimo 폰트를 찾고 CSS에 import 시켜 적용시킬 것.
+	- 글자크기 30px, 중앙정렬, 굵게.
+	5.
+	- Women과 Men에 마우스를 올려 놓으면 밑줄이 각각 생겨야 함. (span, text-decoration
+	사용 권장. Javascript쓸 경우 style.textDecoration 써야함.)
+	- Women을 클릭하면 아래 frame에 bottom_w.html이 열려야하고, Men을 클릭하면
+	bottom_m.html이 열려야함.
+	
+	bottom_w.html 또는 bottom_m.html
+	6.
+	- 사진에 마우스를 올려 놓으면 기존 가격에는 취소선이 생기고, 새로운 가격이
+	보임(새로운 가격은 각자 알아서 정하여 표기살 것).
+	- 사진과 모델이름 가격등은 table로 만들 것.
+	- 브랜드 이름은: 글자크기 15px, 굵게
+	- 모델 이름은: 글자크기 13px
+
+	*/
+	
+	function mouseInside(i) {
+		var genders = document.querySelectorAll(".gender");
+		genders[i].style.textDecoration = "underline";
+		
+	}
+	
+	function mouseOutside(i) {
+		var genders = document.querySelectorAll(".gender");
+		genders[i].style.textDecoration = "none";
+			
+	}
+	
+	function mover() {
+		var uud = document.querySelector("#uud");
+		uud.style.textDecoration = "underline";
+	}
+	
+	function mout() {
+		var uud = document.querySelector("#uud");
+		uud.style.textDecoration = "none";
+	}
+	
+	</script>
+	
+</body>
+</html>
