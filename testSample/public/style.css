@@ -13,11 +13,14 @@ body {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     text-align: center;
-    width: 250px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 250px;
     transition: transform 0.3s ease-in-out;
 }
+
 
 /* 프로필 사진 스타일 */
 .profile-img {
@@ -41,6 +44,7 @@ body {
 /* 마우스 호버 효과 */
 .profile-card:hover {
     transform: scale(1.05);
+    background: pink;
 }
 
 .btn:hover {
