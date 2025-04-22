@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>산융 중간시험2</title>
+	
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+		body{
+			margin:0px;
+			padding:0px;
+		}
+		
+		#top{
+			margin:0px;
+			padding:0px;
+			height:35px;
+			width:100%;
+			background: black;
+		}
+
+		#top_sub{
+			height:70px;
+			width:100%;
+			border-bottom-style: solid;
+			border-width:1px;
+			border-color:gray;
+		}
+
+		#table3{
+			font-size:20px; 
+			text-align: center; 
+			font-weight: bold;
+		}
+
+		.wm{
+			text-decoration: none;
+		}
+
+		.price{
+			text-decoration: none;
+		}
+		.sale{
+			visibility: collapse;
+			font-weight: bold;
+		}
+
+
+	</style>
+</head>
+
+<body link="black" alink="black" vlink="black">
+
+	<table align="center">
+		<tr>
+			<td><img onmouseover="imgover(1,0)" onmouseout="imgover(0,0)" style="width:300px; height:300px;" src="./pic/fendi1.png"></td>
+			<td><img onmouseover="imgover(1,1)" onmouseout="imgover(0,1)" style="width:300px; height:300px;" src="./pic/hermes1.png"></td>
+		</tr>
+		<tr>
+			<td><span style="font-size: 15px; font-weight: bold;">FENDA</span><br>
+				<span style="font-size: 13px;">피카부 I See U</span><br>
+				<span class="price">7,900,000</span> 
+				<span class="sale">50,000</span>
+			</td>
+			<td><span style="font-size: 15px; font-weight: bold;">HERMAS</span><br>
+				<span style="font-size: 13px;">Destin 로퍼</span><br>
+				<span class="price">2,030,000</span> 
+				<span class="sale">15,000</span>
+			</td>
+		</tr>
+	</table>
+
+
+	<script>
+
+		function imgover(m,n) {
+			var aa = document.querySelectorAll(".price");
+			var bb = document.querySelectorAll(".sale");
+			if(m==1) {
+				aa[n].style.textDecoration="line-through";
+				bb[n].style.visibility="visible";
+			}
+			if(m==0) {
+				aa[n].style.textDecoration="none";
+				bb[n].style.visibility="collapse";
+			}
+
+		}
+	</script>
+
+</body>
+
+</html>
