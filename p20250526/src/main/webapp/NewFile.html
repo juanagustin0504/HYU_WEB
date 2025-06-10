@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>선수등록</h1>
+
+	<form action="index.jsp" method=POST>
+		번호: <input type=text name="no"><br>
+		이름: <input type="text" name="name"><br> 
+		
+		구단: <select name="include">
+			<option value="">구단 선택</option>
+			<option value="Doosan Bears">두산 베어스</option>
+			<option value="LG Twins">LG 트윈스</option>
+			<option value="SSG Landers">SSG 랜더스</option>
+			<option value="NC Dinos">NC 다이노스</option>
+			<option value="Lotte Giants">롯데 자이언츠</option>
+			<option value="KIA Tigers">KIA 타이거즈</option>
+			<option value="Samsung Lions">삼성 라이온즈</option>
+			<option value="Hanwha Eagles">한화 이글스</option>
+			<option value="Kiwoom Heroes">키움 히어로즈</option>
+			<option value="KT Wiz">KT 위즈</option>
+		</select><br> 
+		포지션: <input type="text" name="position"><br> 
+		타율: <input type="text" name="rate"><br> 
+		<input type=submit value="전송">
+	</form>
+
+</body>
+</html>
