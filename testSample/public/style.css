@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* 프로필 카드 스타일 */
+.profile-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* 프로필 사진 스타일 */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* 버튼 스타일 */
+.btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* 마우스 호버 효과 */
+.profile-card:hover {
+    transform: scale(1.05);
+    background: pink;
+}
+
+.btn:hover {
+    background: #2980b9;
+}

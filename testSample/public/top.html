@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+		
+		#uud {
+			text-decoration:none;
+		}
+		
+	</style>
+	
+</head>
+
+
+
+<body style="padding:0px; margin:0px;">
+
+	<div style="height:35px; width:100%; background:black">
+		<table style="width:100%; height:100%;">
+			<tr>
+				<td style="color:white; font-size:12px; 
+				           text-align:right; vertical-align:middle">
+					LOGIN JOIN
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div style="border-width:1px; border-color:gray; border-bottom-style:solid">
+		<table  style="width:100%; height:70px; text-align:center;">
+			<tr>
+				<td>NEW</td>
+				<td>25SS</td>
+				<td>WOMEN</td>
+				<td>MEN</td>
+				<td>LUXURY</td>
+				<td>BEST ITEM</td>
+				<td>BRAND</td>
+			</tr>	
+		</table>
+	</div>
+	
+	<p style="font-family:Lugrasimo; font-size:30px; text-align:center;
+	   font-weight:bold">BEST SELLER</p>
+	   
+	<table align="center" >
+		<tr>
+			<td id="uud" onmouseover="mover()" onmouseout="mout()"> Women </td>
+			<td>Men</td>
+		</tr>
+	</table>
+	
+	<script>
+		function mover() {
+			var uud = document.querySelector("#uud");
+			uud.style.textDecoration = "underline";
+		}
+		function mout() {
+			var uud = document.querySelector("#uud");
+			uud.style.textDecoration = "none";
+		}
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

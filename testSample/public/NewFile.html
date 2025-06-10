@@ -1,0 +1,98 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    
+    <style>
+    body {
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+    }
+    
+    .image {
+	    width: 100px;
+	    height: 100px;
+	    border-radius: 50%;
+	    margin-bottom: 10px;
+	}
+    
+    .card {
+	    background: white;
+	    padding: 20px;
+	    border-radius: 10px;
+	    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	    text-align: center;
+	    margin-bottom: 20px;
+	    width: 50%;
+	    height: 250px;
+	    transition: transform 0.3s ease-in-out;
+	}
+	
+	.card:hover {
+	    transform: scale(1.05);
+	    background: pink;
+	}
+	
+	#desc {
+		visibility: collapse;
+	}
+	
+	#hide {
+		visibility: collapse;
+	}
+    
+    </style>
+    
+</head>
+<body align=center>
+
+    <div class="card">
+        <img src="./pic/bts.jpg" class="image">
+        <h2>BTS (방탄소년단)</h2>
+        <p>세계적인 인기를 끌고 있는 글로벌 슈퍼스타.</p>
+        <p id="detail" onclick="detail(1)">더보기</p>
+        <p id="desc" style="color:gray;">데뷔: 2013년 / 소속사: BIGHIT MUSIC<br><br>대표곡: Dynamite, Butter, DNA</p>
+        <p id="hide" onclick="detail(0)">숨기기</p>
+    </div>
+    
+    <script>
+    	function detail(isShow) {
+    		
+    		if (isShow == 1) {
+    			// height 늘리기
+        		var wrapperDiv = document.querySelector(".card");
+        		wrapperDiv.style.height = "400px";
+        		// 더보기 숨기기
+        		var detailP = document.querySelector("#detail");
+        		detailP.style.visibility = "collapse";
+        		// 설명글 보이기
+        		var descP = document.querySelector("#desc");
+        		descP.style.visibility="visible";
+				// 숨기기 버튼 보이기
+        		var hideP = document.querySelector("#hide");
+        		hideP.style.visibility = "visible";
+    		} else {
+    			// height 줄이기
+        		var wrapperDiv = document.querySelector(".card");
+        		wrapperDiv.style.height = "250px";
+        		// 더보기 보이기
+        		var detailP = document.querySelector("#detail");
+        		detailP.style.visibility = "visible";
+        		// 설명글 숨기기
+        		var descP = document.querySelector("#desc");
+        		descP.style.visibility="collapse";
+				// 숨기기 버튼 숨기기
+        		var hideP = document.querySelector("#hide");
+        		hideP.style.visibility="collapse";
+    			
+    		}
+    		
+    		
+    	}
+    
+    
+    </script>
+
+</body>
+</html>

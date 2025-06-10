@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <temp-directories>
   <temp-directory age="1" key="HTTP Preview at localhost" path="tmp0" recycle="true"/>
+<<<<<<< HEAD
   <temp-directory age="0" key="Tomcat v10.1 Server at localhost" path="tmp1" recycle="false"/>
+=======
+  <temp-directory age="0" key="Tomcat v11.0 Server at localhost" path="tmp3" recycle="false"/>
+>>>>>>> 64dcd7a7a56ea78b3d2fe7f8281a472aa4d89811
 </temp-directories>
