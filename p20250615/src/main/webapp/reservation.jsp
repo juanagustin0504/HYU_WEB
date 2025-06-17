@@ -58,8 +58,7 @@ ResultSet rs_airport_code = dbst.executeQuery("select * from airport_code where 
 rs_airport_code.next(); // 첫번째 행으로 이동
 // airport_code 테이블 구조
 // 1. eng_airport
-// 2. kor_airport
-// 3. IATA
+// 2. kor_airport// 3. IATA
 // 4. ICAO
 String iata = rs_airport_code.getString(3); // IATA
 String icao = rs_airport_code.getString(4); // ICAO
