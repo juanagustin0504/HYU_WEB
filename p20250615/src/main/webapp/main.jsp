@@ -51,7 +51,6 @@ for(int i=0; i<cookies.length; i++) {
 		<select name="departure">
 			<option value="atlanta">ATLANTA/USA</option>
 			<option value="osaka">OSAKA/JAPAN</option>
-			<option value="MADRID">MADRID/SPAIN</option>
 		</select><br>
 		시간:
 		<select name="ampm">

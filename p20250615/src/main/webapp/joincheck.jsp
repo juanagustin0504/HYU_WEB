@@ -30,7 +30,7 @@
 	
 	// 레코드 입력
 	Statement insert = conn.createStatement();
-	String runmessage = "insert into user values("+(lastnumber+1)+", '" +getid+ "', sha1('"+ getpass +"'), ' "+ getname +" ',  0)";
+	String runmessage = "insert into user values("+(lastnumber+1)+", '" +getid+ "', sha1('"+ getpass +"'), '"+ getname +"',  0)";
 	insert.executeUpdate( runmessage );
 	
 %>

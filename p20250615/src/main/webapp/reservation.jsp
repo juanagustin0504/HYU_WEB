@@ -48,6 +48,7 @@ String airline = rs.getString(7);
 String destination = rs.getString(8);
 String price = "0";
 
+/*
 // price 구하는 과정 
 // - 도착지(destination)로 IATA, ICAO 값을 구함(airport_code table)
 // - IATA, ICAO 값으로 거리를 구함(distance table)
@@ -70,12 +71,13 @@ rs_distance.next(); // 첫번째 행으로 이동
 // 1. IATA
 // 2. ICAO
 // 3. distance_km
+
 String ori_distance_km = rs_distance.getString(3); // distance_km. ex) 9,986
 String distance_km = ori_distance_km.replace(",", ""); // ',' 문자를 공백으로 치환
 int unit_price = 10; // 단가. 임시로 10원 지정
 int multi_with_distance = Integer.parseInt(distance_km) * unit_price; // 거리 * 단가
 price = multi_with_distance + "원"; // 금액(정수)을 문자열로 변환하기 위해서 "원"과 결합, 필요에 따라 ""(공백)으로 변경
-
+*/
 
 //레코드 입력
 Statement insert = conn.createStatement();
