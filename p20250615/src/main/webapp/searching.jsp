@@ -5,46 +5,47 @@
 
 
 <%
-// 너의 pc에 쿠키가 있는지 없는지 check
-// 모든 쿠키를 가져와서 array cookies에 저장함.
-Cookie[] cookies = request.getCookies();
-
-boolean access_ok = false;
-String yourname="";
-
-for(int i=0; i<cookies.length; i++) {
-	if(cookies[i].getName().equals("login")) {
-		access_ok = true;
-		yourname = cookies[i].getValue();
-		break;
+	// 너의 pc에 쿠키가 있는지 없는지 check
+	// 모든 쿠키를 가져와서 array cookies에 저장함.
+	Cookie[] cookies = request.getCookies();
+	
+	boolean access_ok = false;
+	String yourname="";
+	
+	for(int i=0; i<cookies.length; i++) {
+		if(cookies[i].getName().equals("login")) {
+			access_ok = true;
+			yourname = cookies[i].getValue();
+			break;
+		}
 	}
-}
 
 
-// main.jsp로부터 넘어온 데이터 가져오기 - 검색에 필요한 데이터
-String getdeparture = request.getParameter("departure");
-String getampm = request.getParameter("ampm");
-String gethour = request.getParameter("hour");
+	// main.jsp로부터 넘어온 데이터 가져오기 - 검색에 필요한 데이터
+  	String getdeparture = request.getParameter("departure");
+	int gethour = Integer.parseInt(request.getParameter("hour"));
+	String getampm = request.getParameter("ampm");
 
+	if (getampm.equals("pm")) {
+		gethour += 12;
+	}
+	//DB (acompany) 연결하기
+	Class.forName("com.mysql.jdbc.Driver");
 
-//DB (acompany) 연결하기
-Class.forName("com.mysql.jdbc.Driver");
+	String url = "jdbc:mysql://localhost:3306/airport?serverTimeZone=UTC";
+	String id = "root";
+	String pass = "abcde12345";
 
-String url = "jdbc:mysql://localhost:3306/airport?serverTimeZone=UTC";
-String id = "root";
-String pass = "abcde12345";
+	//  DB연결
+	Connection conn = DriverManager.getConnection(url, id, pass);
 
-//  DB연결
-Connection conn = DriverManager.getConnection(url, id, pass);
-
-// select문
-Statement dbst = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
-// SQL 명령어 실행, select문의 결과는 resultset 클래스의 객체에 저장됨.
-// order by no asc는 오름차순으로 정렬함. record 추가시 행이 순서대로 저장되지 않기 때문에 출력시 꼭 no기준 오름차순으로 정렬해야 함.
-//ResultSet rs = dbst.executeQuery("select * from inchon_departure where departure='"+getdeparture+"' and str_to_date(TimeOfDeparture,'%H:%i')>str_to_date('" + gethour + "','%H:%i')");
-//rs.next();
-//int lastnumber = rs.getInt(1);
-
+	// select문
+	Statement dbst = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+	// SQL 명령어 실행, select문의 결과는 resultset 클래스의 객체에 저장됨.
+	// order by no asc는 오름차순으로 정렬함. record 추가시 행이 순서대로 저장되지 않기 때문에 출력시 꼭 no기준 오름차순으로 정렬해야 함.
+	//ResultSet rs = dbst.executeQuery("select * from inchon_departure where departure='"+getdeparture+"' and str_to_date(TimeOfDeparture,'%H:%i')>str_to_date('" + gethour + "','%H:%i')");
+	//rs.next();
+	//int lastnumber = rs.getInt(1);
 %>    
 
 <!DOCTYPE html>
